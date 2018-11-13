@@ -1,0 +1,121 @@
+/* Using Floats */
+/* div{
+    margin: 2% auto;
+    max-width: 90%;
+    max-height: 900px;
+}
+
+ header{
+    background: green;
+    text-align: center;
+    height: 60px;
+    color:#cccc;
+
+}
+ main{
+    float: right;
+    background: pink;
+    height: 150px;
+    width: 75%;
+    text-align: center;
+
+}
+ aside{
+    
+    background:yellow;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+ nav{
+    background:violet;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+} 
+.container{
+    float: left;
+    width: 25%;
+    height: 150px;
+    margin-top: 0;
+    text-align: center;
+ 
+}
+footer{
+    background:red;
+    width: 100%;
+    clear: right;
+    text-align: center;
+} */
+ 
+/* Using Flex Layout */
+
+.wrapper{
+    display: flex;
+
+     flex-direction: column; 
+    max-width: 900px;
+    margin:  0 auto;
+    max-height:800px;
+}
+.inner-wrapper{
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    flex-wrap:wrap;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+     width: 450px;
+     height:150px;
+}
+.container aside{
+    background:yellow;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+
+}
+.container nav{
+    background:violet;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+header{
+    background: green;
+    text-align: center;
+    height: 60px;
+    color:#cccc;
+}
+footer{
+    background:red;
+    width: 100%;
+     text-align: center;
+} 
+main{
+    background: pink;
+    height: 150px;
+    width: 450px;
+    text-align: center;
+
+}
+
+#child{
+    border:1px solid red;
+    background-color: green;
+   
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+#parent{
+    border:1px solid green;
+    height:100vh;
+    width:100vh;
+    position: relative;
+}

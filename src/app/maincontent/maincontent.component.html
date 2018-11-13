@@ -1,0 +1,25 @@
+<div [style.margin-left.px]="shift ? '250':'0'" class="container">
+    <app-sidenav></app-sidenav>
+<!--     
+  <div class="wrapper">
+   <div class="checkbox-container">
+     <span> A:<input type="checkbox"></span>
+    <span> B:<input type="checkbox"></span>
+    </div>
+    <div class="checkbox-container">
+     <span> C:<input type="checkbox"></span>
+     <span> D:<input type="checkbox"></span>
+    </div> 
+    </div> -->
+  <router-outlet></router-outlet>
+  
+  </div>
+  <label *ngIf="!shift" (click)="toggle()" class="hamburger-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <label *ngIf="shift" class="close-icon" (click)="toggle()">&times;
+    </label>
+  
+  

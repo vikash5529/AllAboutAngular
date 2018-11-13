@@ -1,0 +1,31 @@
+.sidenav{
+    display: flex;
+    background :linear-gradient(to bottom, #9933ff,#9900ff);
+    height:100%;
+    width:0px;
+    
+    justify-content: center;
+    position:fixed;
+    overflow: hidden;
+    left:0;
+    top:10%;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    z-index: 1;
+}
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 25%;
+}
+nav{
+        font-size: 2vw;
+        color: white;
+        font-family: serif;
+        cursor: pointer;
+        outline: 0;
+    }
+   
+   

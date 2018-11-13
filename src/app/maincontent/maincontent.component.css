@@ -1,0 +1,63 @@
+.container{
+    margin-top:5%;
+    height :80vh;
+    max-width:100%;
+    transition: margin-left .5s;
+
+    overflow-x:hidden; 
+    overflow: hidden;
+}
+.wrapper{
+
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+    height: 50vh;            /* height is 50% of viewPort*/
+    
+}
+.checkbox-container{
+ 
+     width: 50%;
+     display: flex;
+    justify-content: space-evenly;
+    height: 15%; 
+}
+.hamburger-icon{
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    height: 9vh;
+    width: 35px;
+    justify-content: space-evenly;
+    border-radius: 10%;
+    position: absolute;
+    top:0;
+    left:4px;
+    cursor: pointer;
+    z-index: 1;
+    
+}
+.hamburger-icon span{
+    display: inline-block;
+    background-color:white;
+    height: 5px;
+    width: 100%;
+
+}
+.close-icon{
+    font-size: 5vw;
+     color: white;
+    font-weight: bolder;
+    
+   cursor: pointer;
+    height: 60px;
+   width: 35px;
+   position: absolute;
+   top:-10px;
+   left:  10px;
+   cursor: pointer;
+   z-index: 1;
+ 
+
+}

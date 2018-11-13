@@ -1,0 +1,8 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to left, #ff9d2f, #ff6126);
+  height: 6vh;
+  z-index: 10;
+}

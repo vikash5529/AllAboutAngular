@@ -1,0 +1,22 @@
+#outer-wrapper {
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  background-image: linear-gradient(to left, #ff9d2f, #ff6126);
+  z-index: 1;
+  height: 10vh;
+}
+.inner-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+nav {
+  font-size: 2.5vw;
+  color: white;
+  font-family: serif;
+  cursor: pointer;
+  outline: 0;
+}
